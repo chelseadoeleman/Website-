@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aanmeldingsformulier</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/transaviaLogo.png" alt="Transavia"><img src="images/logoTransaviaGroot.png" alt="Transavia"></a>
+        <form action="#" id="search">
+            <fieldset>
+                <div>
+                    <input type="search" class="zoeken" name="search" placeholder="Wat zoek je?">
+                    <button id="zoekenHeader"><img src="images/zoeken.png" alt="Zoeken"></button>
+                </div>
+            </fieldset>
+        </form>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#"><img src="images/Avatar.png" alt="Ik"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/Bibibliotheek.svg" alt="Bibliotheek"></a>
+            </li>
+            <li>
+                <a href="#"><img src="../images/Favorieten.png" alt="Favorieten"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/Filter.svg" alt="Filter"></a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Aanmelden</h1>
+    <p>Meld je aan en geniet van allerlei verhalen onderweg. Maar ook na de reis en beheer je eigen bibliotheek.</p>
+
+    <div class="filter">
+        <form class="filterOpties3" action="ik.html">
+            <fieldset>
+                <legend>Persoonlijke gegevens</legend>
+                <label for="surname">
+                Voornaam
+                <input type="text" id="surname" name="voornaam" required="required">
+            </label>
+                <label for="lastname">
+                Achternaam
+                <input type="text" id="lastname" name="achternaam" required="required">
+            </label>
+                <label for="dateofbirth">
+                Geboortedatum
+                <input type="date" id="dateofbirth" name="geboortedatum" required="required">
+            </label>
+            </fieldset>
+            <fieldset>
+                <legend>Inloggegevens</legend>
+                <label for="mail">
+                E-mail
+                <input type="email" id="mail" name="email" required="required">
+            </label>
+                <label for="password">
+                Wachtwoord
+                <input type="text" id="password" name="wachtwoord" required>
+            </label>
+                <button>Aanmelden <img id="done" src="images/voltooid.png" alt="voltooid"></button>
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <script type="text/javascript" src="script/gedrag.js"></script>
+        <script type="text/javascript" src="script/filter.js"></script>
+<script type="text/javascript" src="script/form.js"></script>
+    </footer>
+</body>
+
+</html>
